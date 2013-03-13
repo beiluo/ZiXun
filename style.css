@@ -1,0 +1,237 @@
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+body, input, select, textarea, button {
+    font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
+}
+html, body {
+    height: 100%;
+    min-width: 960px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    height: auto !important;
+    margin: 0 0 -268px;
+    min-height: 100%;
+}
+
+.marketing .header-logged-out {
+    background: none repeat scroll 0 0 transparent;
+}
+.header-logged-out {
+    padding: 10px 0 0 0;
+}
+.header {
+}
+.header-logged-out .top-nav {
+    margin-top: 20px;
+}
+.top-nav {
+    float: left;
+    list-style: none outside none;
+}
+.top-nav li {
+    float: left;
+}
+
+
+.header-logged-out .top-nav a {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.top-nav a {
+    color: #333333;
+    display: block;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 5px;
+    transition: all 0.1s ease-in 0s;
+}
+a {
+    color: #4183C4;
+    text-decoration: none;
+}
+
+.header-logo-wordmark {
+    padding-top: 9px;
+    position: relative;
+}
+.header-logo-wordmark, .header-logo-blacktocat {
+    float: left;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.1s ease-in 0s;
+    white-space: nowrap;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    width: 920px;
+}
+
+.site {
+    padding: 0;
+    width: 100%;
+}
+
+
+.jumbotron:after {
+    clear: both;
+}
+.jumbotron:before, .jumbotron:after {
+    content: " ";
+    display: table;
+}
+.jumbotron:before, .jumbotron:after {
+    content: " ";
+    display: table;
+}
+.jumbotron {
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 60px;
+    padding: 10px 0 0px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 920px;
+}
+
+.tree-browser-wrapper {
+    margin-bottom: 30px;
+}
+.bubble {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    padding: 3px;
+}
+
+
+.commit-tease {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #E6F1F6;
+    border-color: #B7C7CF #B7C7CF #D8E6EC;
+    border-image: none;
+    border-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-width: 1px;
+    padding: 0px 8px 0;
+}
+
+.commit-tease .commit-meta {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #D8E6EC;
+    margin-left: -8px;
+    padding: 8px;
+    width: 100%;
+}
+
+
+.commit-tease p.commit-title {
+    margin: 0 0 6px;
+}
+.commit .commit-title, .commit .commit-title a {
+    color: #4E575B;
+}
+
+
+.List {
+    margin: 20px 10px;
+}
+.ListPanel .List {
+    margin: 10px 5px;
+}
+ul, ol {
+    list-style-type: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.List li {
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.List li h2 {
+    margin: 0 0 5px;
+}
+ .List li .date {
+    color: #666666;
+}
+
+ .List li .detail {
+    color: #666666;
+    line-height: 20px;
+    margin: 10px 0;
+}
+.List a {
+    color: #111111;
+    outline: 0 none;
+}
+.List .more {
+    color: #3E62A6;
+    outline: 0 none;
+}
+.pagination-right {
+text-align: right;
+}
+.pagination ul {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.pagination ul > li {
+    display: inline;
+    line-height: 20px;
+}
+
+.pagination ul > li:first-child > a, .pagination ul > li:first-child > span {
+    border-left-width: 1px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+}
+.pagination ul > li > a, .pagination ul > li > span {
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #DDD;
+    border-left-width: 0;
+}
